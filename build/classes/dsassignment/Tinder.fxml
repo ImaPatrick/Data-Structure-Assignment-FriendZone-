@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #ff5258;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsassignment.TinderController">
+   <children>
+      <Label layoutX="214.0" layoutY="73.0" text="Register now with Tinder!" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtTinderUsername" layoutX="276.0" layoutY="207.0" promptText="Username" style="-fx-background-color: #f87b7f; -fx-border-color: ffffff; -fx-border-width: 0px 0px 2px 0px;" styleClass="textFieldTD" stylesheets="@stylesheet.css" />
+      <PasswordField fx:id="txtTinderPassword" layoutX="276.0" layoutY="282.0" promptText="Password" style="-fx-background-color: #f87b7f; -fx-border-color: ffffff; -fx-border-width: 0px 0px 2px 0px;" styleClass="textFieldTD" stylesheets="@stylesheet.css" />
+      <Button fx:id="btnBackToRegister" layoutX="279.0" layoutY="355.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="57.0" prefWidth="141.0" style="-fx-background-color: #eb2027;" text="Register now" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblError" layoutX="271.0" layoutY="316.0" />
+      <Button fx:id="btnBackToRegister" layoutX="465.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="9.0" prefWidth="180.0" style="-fx-background-color: #eb2027;" text="Back to Registration Page" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
