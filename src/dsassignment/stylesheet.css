@@ -1,0 +1,69 @@
+.parent{
+    -fx-background-color: white;
+}
+
+.sidebar{
+    -fx-background-color: #6747CD;
+}
+
+.newUserBtn{
+    -fx-text-fill: #a3a3a3;
+}
+
+.newUserBtn:hover{
+    -fx-text-fill: #6747CD;
+    -fx-underline: true;
+}
+
+.loginBtn{
+    -fx-background-color: #6747CD;
+    -fx-text-fill: #FFF;
+}
+
+loginBtn:hover{
+    -fx-text-fill: #FFF;
+    -fx-border-color: #6747CD;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.textFieldJD {
+    -fx-prompt-text-fill:  #4f1a7d; 
+}
+
+.textFieldJD:empty .text { 
+    -fx-effect: null ; 
+}
+
+.textFieldTT {
+    -fx-prompt-text-fill:   #f84a00; 
+}
+
+.textFieldTT:empty .text { 
+    -fx-effect: null ; 
+}
+
+.textFieldTD {
+    -fx-prompt-text-fill:    #eb2027; 
+}
+
+.textFieldTD:empty .text { 
+    -fx-effect: null ; 
+}
+
+.textFieldDarker {
+    -fx-prompt-text-fill:    #760b03; 
+}
+
+.textFieldDarker:empty .text { 
+    -fx-effect: null ; 
+}
+
+.searchUserlbl{
+    -fx-text-fill: #000000;
+}
+
+.searchUserlbl:hover{
+    -fx-text-fill: #a3a3a3;
+    -fx-underline: true;
+}

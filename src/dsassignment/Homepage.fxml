@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #ff6f61;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsassignment.HomepageController">
+   <children>
+      <Label fx:id="lblGetUsername" layoutX="244.0" layoutY="25.0" text="Welcome User" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogout" layoutX="598.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="50.0" prefWidth="88.0" style="-fx-background-color: #f13b29; -fx-background-radius: 5px;" text="Logout" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnShowUsers" layoutX="121.0" layoutY="107.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="61.0" prefWidth="457.0" style="-fx-background-color: #f13b29; -fx-background-radius: 10px;" text="Show nearby users" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearchUser" layoutX="121.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="61.0" prefWidth="457.0" style="-fx-background-color: #f13b29; -fx-background-radius: 10px;" text="Search user by username" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdateDetails" layoutX="121.0" layoutY="270.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="61.0" prefWidth="457.0" style="-fx-background-color: #f13b29; -fx-background-radius: 10px;" text="Update details" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUserProfile" layoutX="121.0" layoutY="357.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="61.0" prefWidth="457.0" style="-fx-background-color: #f13b29; -fx-background-radius: 10px;" text="My Profile" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
